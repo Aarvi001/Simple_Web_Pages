@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    background-image: url('diwali.webp');
+    background-position: center center;
+    background-size: cover;
+    margin-top: 10rem;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 3rem;
+    margin-top: 10%;
+}
+
+.countdownContainer{
+    display: flex;
+    justify-content: center;
+
+}
+
+.bigtext{
+    font-size: 2rem;
+    line-height: 1;
+    margin: 0rem 2rem;
+}
+
+
+.centering{
+    text-align: center;
+}
+.centering span{
+    font-size: 1.5rem;
+}
